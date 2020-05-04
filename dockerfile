@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER "Rob"
 #Install git
 RUN sudo apt-get update \        
-     sudo apt-get install -y git
+    apt-get install -y git
 RUN sudo mkdir /home/sampleTest \      
            cd /home/sampleTest \        
            sudo git clone https://github.com/Pangil12/copius-server.git
